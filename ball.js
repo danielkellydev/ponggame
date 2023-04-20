@@ -7,7 +7,7 @@ export default class Ball {
     }
 
     get x() {
-        return parsefloat(getComputedStyle(this.ballElem).getPropertyValue("--x"));
+        return parseFloat(getComputedStyle(this.ballElem).getPropertyValue("--x"));
     }
 
     set x(value) {
@@ -15,7 +15,7 @@ export default class Ball {
     }
 
     get y() {
-        return parsefloat(getComputedStyle(this.ballElem).getPropertyValue("--y"));
+        return parseFloat(getComputedStyle(this.ballElem).getPropertyValue("--y"));
     }
 
     set y(value) {
